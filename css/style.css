@@ -185,6 +185,23 @@ body{margin: 0;}
 	background: url('../images/img01.png') no-repeat;
 }
 
+.subtitle {
+	letter-spacing: 1px;
+    position: absolute;
+    top: 43%;
+    left: 65%;
+    z-index: 5;
+    color: white;
+    text-shadow: 0px 0px 18px #ffca26;
+    font: 1000 27px/20px 'Poppins', sans-serif;
+}
+#sub1 {
+	margin-bottom: 10px;
+	text-align: right;
+}
+#sub2 {
+	position: relative;
+}
 
 /* opacity: 0;
 z-index: 7;
@@ -240,7 +257,8 @@ transform: rotate(-24deg) translateX(332px) translateY(-18px); */
     word-spacing: 2px;
     position: absolute;
     letter-spacing: 7px;
-    transform: rotate(-26deg) translateX(323px) translateY(18px);
+	/* transform: rotate(-26deg) translateX(323px) translateY(18px); */
+	transform: rotate(0);
     font: 76px/58px
     'Bangers', cursive;
 }
@@ -254,7 +272,7 @@ transform: rotate(-24deg) translateX(332px) translateY(-18px); */
 	word-spacing: 2px;
 	position: absolute;
 	letter-spacing: 4px;
-	transform: rotate(-26deg) translateX(292px) translateY(12px);
+	/* transform: rotate(-26deg) translateX(292px) translateY(12px); */
 }
 
 /*------------------------------------------------------------------
@@ -297,59 +315,185 @@ transform: rotate(-24deg) translateX(332px) translateY(-18px); */
 	#hock{left: 47.25%;}
 	#title{top: 77%;}
 	#title{left: 50.4%;}
-	#oh{left: 36.2%;top: 47%;}
-	.next{left: 39.6%;top: 38%;}
+	#oh{  
+		left: 64%;
+		top: 23%;
+		font-size: 61px;	
+	 }
+	.next {
+		left: 66%;
+		top: 15%;
+		font-size: 31px;
+	}
+	.subtitle {
+	    top: 30%;
+		left: 60%;
+		font-size: 29px;
+	}
 }
 @media only screen and (max-width: 1900px){
 	#hock{left: 47.25%;}
 	#title{top: 77%;}
 	#title{left: 50.6%;}
-	#oh{left: 37.2%;top: 46%;}
-	.next{left: 39.6%;top: 38%;}
+	#oh{  
+		left: 64%;
+		top: 23%;
+		font-size: 61px;	
+	 }
+	.next {
+		left: 67%;
+		top: 15%;
+		font-size: 31px;
+	}
+	.subtitle {
+	    top: 30%;
+		left: 60%;
+		font-size: 29px;
+	}
 }
 @media only screen and (max-width: 1870px){
 	#hock{left: 47.25%;}
 	#title{top: 77%;}
 	#title{left: 50.6%;}
-	#oh{left: 36.2%;top: 45%;}
-	.next{top: 37%;left: 39.6%;}
+	#oh{  
+		left: 64%;
+		top: 23%;
+		font-size: 61px;	
+	 }
+	.next {
+		left: 67%;
+		top: 15%;
+		font-size: 31px;
+	}
+	.subtitle {
+	    top: 30%;
+		left: 60%;
+		font-size: 29px;
+	}
 }
 @media only screen and (max-width: 1760px){
 	#hock{left: 47.35%;}
 	#title{left: 50.9%;}
-	#oh{top: 49%;left: 35.2%;}
-	.next{left: 37.6%;top: 41%;}
+	#oh{  
+		left: 64%;
+		top: 23%;
+		font-size: 61px;	
+	 }
+	.next {
+		left: 67%;
+		top: 15%;
+		font-size: 31px;
+	}
+	.subtitle {
+	    top: 30%;
+		left: 60%;
+		font-size: 29px;
+	}
 }
 @media only screen and (max-width: 1680px){
 	#wrapper{min-height: 870px;height: 870px;}
 	#hock{left: 47.45%; top: 40.9%;}
-	#oh{top: 51%;left: 34.2%;}
-		#title{left: 51.1%;}
+	#oh{  
+		left: 67%;
+		top: 24%;
+		font-size: 55px;	
+	 }
+	.next {
+		left: 70%;
+		top: 16%;
+		font-size: 28px;
+	}
+	.subtitle {
+		top: 31%;
+		left: 63%;
+		font-size: 26px;
+	}
+	#title{left: 51.1%;}
 }
 @media only screen and (max-width: 1600px){
 	#hock{left: 47.6%;}
-		#title{left: 51.4%;}
+	#title{left: 51.4%;}
+	#oh{  
+		left: 67%;
+		top: 24%;
+		font-size: 55px;	
+	 }
+	.next {
+		left: 70%;
+		top: 16%;
+		font-size: 28px;
+	}
+	.subtitle {
+		top: 31%;
+		left: 63%;
+		font-size: 26px;
+	}
 }
 @media only screen and (max-width: 1570px){
 	#hock{left: 47.7%;}
-	#oh{left: 34.2%;top: 51%;}
-		#title{left: 51.5%;}
+	#oh{  
+		left: 67%;
+		top: 24%;
+		font-size: 55px;	
+	 }
+	.next {
+		left: 70%;
+		top: 16%;
+		font-size: 28px;
+	}
+	.subtitle {
+		top: 31%;
+		left: 63%;
+		font-size: 26px;
+	}
+	#title{left: 51.5%;}
 }
 @media only screen and (max-width: 1462px){
 	#hock{left: 47.85%;}
-		#title{left: 51.9%;}
+	#title{left: 51.9%;}
+	#oh{  
+		left: 67%;
+		top: 24%;
+		font-size: 55px;	
+	 }
+	.next {
+		left: 70%;
+		top: 16%;
+		font-size: 28px;
+	}
+	.subtitle {
+		top: 31%;
+		left: 63%;
+		font-size: 26px;
+	}
 }
 @media only screen and (max-width: 1400px){
 	#wrapper{min-height: 768px;height: 768px;}
 	#hock{left: 48.05%; top: 45.9%;}
-	#oh{left: 32.2%;top: 54%;}
+	#oh{  
+		left: 69%;
+		top: 25%;
+		font-size: 55px;	
+	 }
+	.next {
+		left: 72%;
+		top: 16%;
+		font-size: 28px;
+	}
+	.subtitle {
+	    top: 33%;
+		left: 65%;
+		font-size: 26px;
+	}
+	#title{left: 52.4%;}
 	.txt{
 		bottom: 127px;
 		margin: 0 0 0 -230px;
 	}
+	
 	.txt p{margin: 0 0 23px;}
 	#title{left: 52.4%;}
-	.next{left: 32.6%;top: 46%;}
+	/* .next{left: 32.6%;top: 46%;} */
 }
 @media only screen and (max-width: 1370px){
 	#wrapper{min-height: 650px;height: 650px;}
@@ -357,118 +501,388 @@ transform: rotate(-24deg) translateX(332px) translateY(-18px); */
 	.txt{bottom: 86px;}
 	#moon{margin: -60px 0 0;}
 	#title{left: 52.6%;}
-	.next{left: 33.6%;top: 43%;}
-	#oh{left: 31%;font-size: 65px;}
+	#oh{  
+		left: 68%;
+		top: 29%;
+		font-size: 55px;	
+	 }
+	.next {
+		left: 71.4%;
+		top: 18%;
+		font-size: 28px;
+	}
+	#title{left: 52.5%;}
+	.subtitle {
+		top: 39%;
+		left: 64%;
+		font-size: 25px;;	
+	}
 }
 @media only screen and (max-width: 1300px){
 	#hock{left: 48.2%;}
-	.next{left: 33.6%;top: 43%;}
-	#oh{left: 31%;font-size: 65px;}
-		#title{left: 52.8%;}
+	#oh{  
+		left: 68%;
+		top: 29%;
+		font-size: 55px;	
+	 }
+	.next {
+		left: 71.4%;
+		top: 18%;
+		font-size: 28px;
+	}
+	#title{left: 52.8.3%;}
+	.subtitle {
+		top: 39%;
+		left: 64%;
+		font-size: 25px;;	
+	}
+	#title{left: 52.8%;}
 }
 @media only screen and (max-width: 1240px){
 	#hock{left: 48.3%; top: 41.9%;}
-		#title{left: 55.1%;}
-		.next{left: 31.6%;top: 43%;}
-		#oh{left: 29%;font-size: 65px;}
+	#title{left: 55.1%;}
+	#oh{  
+		left: 68%;
+		top: 29%;
+		font-size: 55px;	
+	 }
+	.next {
+		left: 71.4%;
+		top: 18%;
+		font-size: 28px;
+	}
+	.subtitle {
+		top: 39%;
+		left: 64%;
+		font-size: 25px;;	
+	}
 }
 @media only screen and (max-width: 1240px){
 	#hock{left: 48.4%;}
-	.next{left: 31.6%;top: 43%;}
-	#oh{left: 29%;font-size: 65px;}
+	#oh{  
+		left: 68%;
+		top: 29%;
+		font-size: 55px;	
+	 }
+	.next {
+		left: 71.4%;
+		top: 18%;
+		font-size: 28px;
+	}
 	#title{left: 53.3%;}
+	.subtitle {
+		top: 39%;
+		left: 64%;
+		font-size: 25px;;	
+	}
 }
 @media only screen and (max-width: 1180px){
 	#hock{left: 48.6%;}
 	#title{left: 53.7%;}
-	.next{left: 31.6%;top: 43%;}
-	#oh{left: 29%;font-size: 65px;}
+	#oh{  
+		left: 67%;
+		top: 27%;
+		font-size: 52px;
+	 }
+	.next {
+		left: 70%;
+		top: 16%;
+		font-size: 28px;
+	}
+	.subtitle {
+		top: 37%;
+		left: 62%;
+		font-size: 25px;
+	}
 }
 @media only screen and (max-width: 1120px){
 	#hock{left: 48.7%;}
-		#title{left: 54.1%;}
-		.next{left: 31.6%;top: 43%;}
-		#oh{left: 29%;font-size: 65px;}
+	#title{left: 54.1%;}
+	#oh{  
+		left: 11%;
+		top: 21%;
+		font-size: 50px;
+	}
+	.next {
+		left: 15%;
+		top: 10%;
+		font-size: 24px;
+	}
+	.subtitle {
+		top: 31%;
+		left: 5%;
+		font-size: 24px;
+	}
 }
 @media only screen and (max-width: 1090px){
 	#hock{left: 48.9%;}
-		#title{left: 54.5%;}
-		.next{left: 31.6%;top: 43%;}
-		#oh{left: 29%;font-size: 65px;}
+	#title{left: 54.5%;}
+	#oh{  
+		left: 11%;
+		top: 21%;
+		font-size: 50px;
+	}
+	.next {
+		left: 15%;
+		top: 10%;
+		font-size: 24px;
+	}
+	.subtitle {
+		top: 31%;
+		left: 5%;
+		font-size: 24px;
+	}
 }
 @media only screen and (max-width: 1030px){
 	#hock{left: 49.1%;}
 	#title{left: 55.1%;}
-	.next{left: 31.6%;top: 43%;}
-	#oh{left: 29%;font-size: 65px;}
+	#oh{  
+		left: 11%;
+		top: 21%;
+		font-size: 50px;
+	}
+	.next {
+		left: 15%;
+		top: 10%;
+		font-size: 24px;
+	}
+	.subtitle {
+		top: 31%;
+		left: 5%;
+		font-size: 24px;
+	}
 }
 @media only screen and (max-width: 970px){
 	#hock{left: 49.3%;}
-	#oh{left: 29%;font-size: 65px;}
 	.txt{margin: 0 0 0 -210px;}
 	#title{left: 55.6%;}
-	.next{left: 31.6%;top: 43%;}
+	#oh{  
+		left: 11%;
+		top: 21%;
+		font-size: 50px;
+	}
+	.next {
+		left: 15%;
+		top: 10%;
+		font-size: 24px;
+	}
+	.subtitle {
+		top: 31%;
+		left: 5%;
+		font-size: 24px;
+	}
 }
 @media only screen and (max-width: 920px){
 	#hock{left: 49.5%;}
 	#title{left: 56%;}
-	#oh{left: 26%;top: 53%;}
-	.next{left: 29.6%;top: 42%;}
+	#oh{  
+		left: 11%;
+		top: 21%;
+		font-size: 50px;
+	}
+	.next {
+		left: 15%;
+		top: 10%;
+		font-size: 24px;
+	}
+	.subtitle {
+		top: 31%;
+		left: 5%;
+		font-size: 24px;
+	}
 }
 @media only screen and (max-width: 880px){
 	#wrapper{min-height: 1000px;height: 1000px;}
 	#hock{left: 49.8%; top: 35.9%;}
 	#title{top: 75%;}
 	#moon{margin: 0;}
-	#oh{left: 20%;top: 48%;}
-	.next{left: 26.6%;top: 50%;}
+	#oh{  
+		left: 10%;
+		top: 11.5%;
+		font-size: 56px;
+	}
+	.next {
+		left: 15%;
+		top: 4%;
+		font-size: 27px;
+	}
+	.subtitle {
+		top: 18%;
+		left: 6%;
+		font-size: 22px;
+	}
 }
 @media only screen and (max-width: 835px){
 	#hock{left: 50.0%;}
 	#title{left: 57.5%;}
+	#oh{  
+		left: 10%;
+		top: 11%;
+		font-size: 56px;
+	}
+	.next {
+		left: 15%;
+		top: 4%;
+		font-size: 27px;
+	}
+	.subtitle {
+		top: 18%;
+		left: 6%;
+		font-size: 22px;
+	}
 }
 @media only screen and (max-width: 785px){
 	#hock{left: 50.4%; top: 37%;}
-	#oh{left: -23%;top: 289px;font-size: 3.7EM;}
-	.next{left: -18.4%;top: 22%;font-size:  30px;}
 	#title{left: 58.1%;}
+	#oh{  
+		left: 10%;
+		top: 11%;
+		font-size: 50px;
+	}
+	.next {
+		left: 15%;
+		top: 4%;
+		font-size: 25px;
+	}
+	.subtitle {
+		top: 17%;
+		left: 6%;
+		font-size: 21px;
+	}
 }
 @media only screen and (max-width: 755px){
 	#hock{left: 50.6%;}
 	#title{left: 58.6%;}
+	#oh{  
+		left: 10%;
+		top: 11%;
+		font-size: 50px;
+	}
+	.next {
+		left: 15%;
+		top: 4%;
+		font-size: 25px;
+	}
+	.subtitle {
+		top: 17%;
+		left: 6%;
+		font-size: 21px;
+	}
 }
 @media only screen and (max-width: 700px){
 	#hock{left: 50.9%;}
 	#title{left: 59.6%;}
+	#oh{  
+		left: 12%;
+		top: 11%;
+		font-size: 50px;
+	}
+	.next {
+		left: 17%;
+		top: 4%;
+		font-size: 25px;
+	}
+	.subtitle {
+		top: 17%;
+		left: 6%;
+		font-size: 21px;
+	}
 }
 @media only screen and (max-width: 670px){
 	#wrapper{min-height: 920px;height: 920px;}
 	#hock{left: 51.2%; top: 39.9%;}
-	#oh{left: -34%;top: 232px;font-size: 50px;}
-	.next{left: -35.4%;top: 18%;font-size:  30px;}
 	#title{left: 60.1%;}
+	#oh{  
+		left: 14%;
+		top: 9%;
+		font-size: 45px;
+	}
+	.next {
+		left: 20%;
+		top: 2%;
+		font-size: 23px;
+	}
+	.subtitle {
+		top: 15%;
+		left: 6%;
+		font-size: 21px;
+	}
 }
 @media only screen and (max-width: 630px){
 	#hock{left: 51.6%;}
-	#oh{left: -35%;top: 258px;font-size: 64px;}
-	.next{left: -34.4%;top: 20%;font-size: 34px;}
 	#title{left: 61.1%;}
+	#oh{  
+		left: 14%;
+		top: 9%;
+		font-size: 45px;
+	}
+	.next {
+		left: 20%;
+		top: 2%;
+		font-size: 23px;
+	}
+	.subtitle {
+		top: 15%;
+		left: 6%;
+		font-size: 21px;
+	}
 }
 @media only screen and (max-width: 595px){
 	#hock{left: 52.0%;}
-	#oh{left: -39%;top: 264px;font-size: 50px;}
-	.next{left: -40.4%;top: 21%;font-size:  30px;}
 	#title{left: 62.1%;}
+	#oh{  
+		left: 14%;
+		top: 9%;
+		font-size: 45px;
+	}
+	.next {
+		left: 20%;
+		top: 2%;
+		font-size: 23px;
+	}
+	.subtitle {
+		top: 15%;
+		left: 6%;
+		font-size: 21px;
+	}
 }
 @media only screen and (max-width: 565px){
 	#hock{left: 52.4%;}
-	#oh{left: -35%;top: 258px;font-size: 50px;}
-	.next{left: -35.4%;top: 20%;font-size:  30px;}
 	#title{left: 62.9%;}
+	#oh{  
+		left: 14%;
+		top: 9%;
+		font-size: 45px;
+	}
+	.next {
+		left: 20%;
+		top: 2%;
+		font-size: 23px;
+	}
+	.subtitle {
+		top: 15%;
+		left: 6%;
+		font-size: 21px;
+	}
 }
 @media only screen and (max-width: 540px){
 	#hock{left: 52.8%;}
 	#title{left: 64.1%;}
+	#oh{  
+		left: 16%;
+		top: 9%;
+		font-size: 42px;
+	}
+	.next {
+		left: 24%;
+		top: 2%;
+		font-size: 20px;
+	}
+	.subtitle {
+		top: 15%;
+		left: 7%;
+		font-size: 20px;
+	}
 }
 @media only screen and (max-width: 510px){
 	#hock{left: 53.1%;}
@@ -478,27 +892,80 @@ transform: rotate(-24deg) translateX(332px) translateY(-18px); */
 	#wrapper{min-height: 840px;height: 840px;}
 	#moon{margin: -22px 0 0;}
 	#hock{left: 53.6%;}
-	#oh{left: -46%;top: 258px;font-size: 50px;}
-	.next{left: -43.4%;bottom: 64%;font-size:  30px;}
 	#title{left: 66.2%;}
+	#oh{  
+		left: 16%;
+		top: 9%;
+		font-size: 42px;
+	}
+	.next {
+		left: 24%;
+		top: 2%;
+		font-size: 20px;
+	}
+	.subtitle {
+		top: 15%;
+		left: 7%;
+		font-size: 20px;
+	}
 }
 @media only screen and (max-width: 469px){
 	#hock{left: 54.3%;}
-	#oh{left: -47%;top: 210px;font-size: 50px;}
-	.next{left: -50.4%;top: 17%;font-size:  30px;}
 	#title{left: 67.3%;}
+	#oh{  
+		left: 16%;
+		top: 9%;
+		font-size: 42px;
+	}
+	.next {
+		left: 24%;
+		top: 2%;
+		font-size: 20px;
+	}
+	.subtitle {
+		top: 15%;
+		left: 7%;
+		font-size: 20px;
+	}
 }
 @media only screen and (max-width: 430px){
 	#hock{left: 54.8%;}
-	#oh{left: -51%;top: 238px;font-size: 50px;}
-	.next{left: -68.4%;top: 18%;font-size:  30px;}
 	#title{left: 68.4%;}
+	#oh{  
+		left: 16%;
+		top: 9%;
+		font-size: 42px;
+	}
+	.next {
+		left: 24%;
+		top: 2%;
+		font-size: 20px;
+	}
+	.subtitle {
+		top: 15%;
+		left: 7%;
+		font-size: 20px;
+	}
 }
 @media only screen and (max-width: 415px){
 	#hock{left: 55.4%;}
-	#oh{left: -68%;top: 224px;font-size: 50px;}
 	.txt{margin: 0 0 0 -180px;}
 	#title{left: 69.9%;}
+	#oh{  
+		left: 23%;
+		top: 5%;
+		font-size: 40px;	
+	}
+	.next {
+		left: 33%;
+		top: -2%;
+		font-size: 18px;
+	}
+	.subtitle {
+		top: 11%;
+		left: 13%;
+		font-size: 19px;
+	}
 }
 @media only screen and (max-width: 385px){
 	#hock{left: 56.1%;}
@@ -512,9 +979,27 @@ transform: rotate(-24deg) translateX(332px) translateY(-18px); */
 @media only screen and (max-width: 355px){
 	#hock{left: 57.4%;}
 	#title{left: 74.4%;}
+	#oh{  
+		left: 23%;
+		top: 5%;
+		font-size: 40px;	
+	}
+	.next {
+		left: 33%;
+		top: -2%;
+		font-size: 18px;
+	}
+	.subtitle {
+		top: 11%;
+		left: 13%;
+		font-size: 15px;
+	}
 
 }
 @media only screen and (max-width: 325px){
 	#hock{left: 57.8%;}
 	#title{left: 75.9%;}
+	.subtitle {
+		font-size: 15px;
+	}
 }
