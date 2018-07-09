@@ -329,6 +329,7 @@ transform: rotate(-24deg) translateX(332px) translateY(-18px); */
 	    top: 30%;
 		left: 60%;
 		font-size: 29px;
+		opacity: 0;
 	}
 }
 @media only screen and (max-width: 1900px){
